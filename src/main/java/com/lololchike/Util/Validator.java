@@ -11,7 +11,8 @@ public class Validator {
     private boolean operationValidator(String operation) {
         // two operations -> encode,decode
 
-        return operation.equalsIgnoreCase(anotherString:'encode')||
+        String anotherString;
+        return operation.equalsIgnoreCase(anotherString;:'encode')||
         operation.equalsIgnoreCase(anotherString:'decode');
     }
 

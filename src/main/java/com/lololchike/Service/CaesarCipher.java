@@ -3,7 +3,7 @@ package com.lololchike.Service;
 public class CaesarCipher {
     Private final String ALPHABETS ="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    Public String encode (String message,int key){
+    Public String; encode (String message, int key){
 
     }
 
