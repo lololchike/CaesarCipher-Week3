@@ -5,6 +5,7 @@ import com.lololchike.Util.Validator;
 
 import java.util.Scanner;
 public class GetUserInput {
+    public static userInput input;
     Public statickk GetUserInput input;
 
     public static boolean getUserInput(){

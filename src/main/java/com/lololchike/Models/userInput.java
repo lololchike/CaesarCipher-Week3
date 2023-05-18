@@ -1,35 +1,39 @@
 package com.lololchike.Models;
 
 public class userInput {
-    public String Operation;
-    public int Key;
+    String operation;
+    String message;
+    int key;
+    public static String getOperation() {
+        return operation;
+    }
 
-    public String getOperation() {
-        return Operation;
+    public static String operation() {
+        return operation;
+    }
+
+    public static String message() {
     }
 
     public void setOperation(String operation) {
-        Operation = operation;
+        this.operation = operation;
     }
 
-    public String getMessage() {
-        return Message;
+    public static String getMessage() {
+        return message;
     }
 
     public void setMessage(String message) {
-        Message = message;
+        this.message = message;
     }
 
-    public int getKey() {
-        return Key;
+    public static int getKey() {
+        return key;
     }
 
     public void setKey(int key) {
-        Key = key;
+        this.key = key;
     }
-
-    public String Message;
-
-
-
+    
+            
 };

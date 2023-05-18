@@ -1,19 +1,19 @@
 package com.lololchike.Util;
+import com.lololchike.Models.userInput;
+
 
 public class Validator {
-    public  boolean isValid(UserInput userInput){
+    public  boolean isValid( userInput UseInput){
       boolean oIsValid =operationValidator(userInput.getOperation());
-        boolean mIsValid =operationValidator(userInput.getMessage());
-        boolean kIsValid =operationValidator(userInput.getKey());
+        boolean mIsValid =messageValidator(userInput.message());
+        boolean kIsValid =keyValidator(userInput.getKey());
 
         return oIsValid && mIsValid && kIsValid;
     }
     private boolean operationValidator(String operation) {
-        // two operations -> encode,decode
+      return operation.equalsIgnoreCase(anotherString:"encode") ||
+        operation.equalsIgnoreCase(anotherString:"decode");
 
-        String anotherString;
-        return operation.equalsIgnoreCase(anotherString;:'encode')||
-        operation.equalsIgnoreCase(anotherString:'decode');
     }
 
     private boolean messageValidator(String message) {
