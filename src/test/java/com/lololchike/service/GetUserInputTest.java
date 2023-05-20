@@ -2,7 +2,7 @@ package com.lololchike.service;
 
 import org.junit.jupiter.api.Test;
 
-Public class GetUserInputTest {
+public class GetUserInputTest {
 
     @Test
     public  void getUserInput() {
