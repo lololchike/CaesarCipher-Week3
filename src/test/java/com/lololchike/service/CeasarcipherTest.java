@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CeasarcipherTest {
+class CaesarcipherTest {
 
     @Test
     void testCipherEncodingReturnCorrectCipherText_True() {
@@ -13,7 +13,7 @@ class CeasarcipherTest {
         int key = 23;
 
 
-       Ceasarcipher ceasarcipher = new Ceasarcipher();
+       CaesarCipher ceasarcipher = new CaesarCipher();
        String output = ceasarcipher.encode(plainText, key);
         System.out.println("Test output:" + output);
        assertEquals(cipherText,output);
@@ -27,7 +27,7 @@ class CeasarcipherTest {
         int key = 23;
 
 
-        Ceasarcipher ceasarcipher = new Ceasarcipher();
+        CaesarCipher ceasarcipher = new CaesarCipher();
         String output = ceasarcipher.decode(cipherText, key);
         System.out.println("Test output:" + output);
         assertEquals(plainText,output);
