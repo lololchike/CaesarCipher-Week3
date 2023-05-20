@@ -1,17 +1,25 @@
-package com.lololchike.Service;
+package com.lololchike.service;
 
 public class CaesarCipher {
-    Private final String ALPHABETS ="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private static final String ALPHABETS ="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    Public String; encode (String message, int key){
+    public static String encode (String message, int key){
+        String output = "";
+        for(char c:message.toUpperCase().toCharArray()){
+            output = output + shiftChar(c, key);
+        }
+        return output;
 
     }
 
-    public String decode() {
+    public static String decode(String message, int key) {
         return "";
     }
-    Private char shiftChar( char c , int k){
+    private static char shiftChar( char c , int k){
         int oldIndex = ALPHABETS.indexOf(c);
+        if (oldIndex == -1) {
+            return c;
+        }
         int newIndex = (oldIndex + k) % 26;
 
         int pos;

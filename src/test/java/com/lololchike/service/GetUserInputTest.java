@@ -1,13 +1,11 @@
-package com.lololchike.Service;
+package com.lololchike.service;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 Public class GetUserInputTest {
 
     @Test
-    Public void getUserInput() {
+    public  void getUserInput() {
         GetUserInput.getUserInput();
     }
 }

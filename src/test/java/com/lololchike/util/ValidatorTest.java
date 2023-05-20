@@ -1,4 +1,4 @@
-package com.lololchike.Util;
+package com.lololchike.util;
 
 import org.junit.jupiter.api.Test;
 
