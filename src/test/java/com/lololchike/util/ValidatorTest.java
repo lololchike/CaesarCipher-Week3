@@ -29,18 +29,11 @@ class ValidatorTest {
     void testInValidOperation_validatorReturnTrue() {
         Validator validator = new Validator();
         UserInput userInput = new UserInput();
-        userInput.setOperation("jgghmdhj");
+        userInput.setOperation("hello");
         userInput.setMessage("message");
         userInput.setKey(1);
         assertFalse(validator.isValid(userInput));
-        @Test
-        void testValidOnValidUserInput_validatorReturnTrue() {
-            Validator validator = new Validator();
-            UserInput userInput = new UserInput();
-            userInput.setOperation("encode");
-            userInput.setMessage("message");
-            userInput.setKey(1);
-            assertTrue((validator.isValid(userInput)));
+
+
         }
     }
-}
