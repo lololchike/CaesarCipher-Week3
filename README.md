@@ -10,3 +10,11 @@ project setup instructions
 -create a decoding class that converts the output that was produced by the encoding class and returns the original value or input that was fed earlier
 -all the classes should be encapsulated containing private properties
 -when your logic for encrypting and decrypting a String input (and well-tested), work on displaying the encrypted and decrypted data.
+Behaviour
+Our application should:
+Encrypt messages typed in by the user.
+Decrypt messages typed in by the user.
+Setup/Installation Requirements
+-Technologies Used
+Java
+Gradle
