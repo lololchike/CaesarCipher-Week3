@@ -15,6 +15,5 @@ Our application should:
 Encrypt messages typed in by the user.
 Decrypt messages typed in by the user.
 Setup/Installation Requirements
--Technologies Used
-Java
-Gradle
+-Technologies Used  Java,Gradle,Kotlin
+-Support and contact details lucyololchike@gmail.com
